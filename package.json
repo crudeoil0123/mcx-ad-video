@@ -1,0 +1,19 @@
+{
+  "name": "mcx-ad-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion bundle",
+    "render": "remotion render src/index.ts MCXAdVideo out/video.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "latest",
+    "@remotion/bundler": "latest",
+    "@remotion/renderer": "latest",
+    "remotion": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {}
+}
